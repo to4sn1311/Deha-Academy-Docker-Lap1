@@ -35,6 +35,9 @@ root /var/www/laravel/public;
 
 http://localhost:5000
 
+![image](https://github.com/user-attachments/assets/918f448a-2f15-4c1a-93b5-a7260294df96)
+
+
 ## Use Laradock to create a Laravel running environment, change the configuration (port, PHP version) of Laradock
 
 `docker-compose down`
@@ -44,4 +47,7 @@ http://localhost:5000
 `docker-compose up -d nginx`
 
 http://localhost:8989
+
+![image](https://github.com/user-attachments/assets/916cea7a-ab76-4670-b055-401ab2102a41)
+
 
