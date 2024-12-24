@@ -21,9 +21,9 @@ NGINX_HOST_HTTP_PORT=8989
 
 ## Modified NGINX 
 
-`cd nginx/sites/default.conf` </br>
+`cd nginx/sites` </br>
 
-Sửa: </b>
+Edit default.conf: </b>
 
 root /var/www/laravel/public;
 
@@ -31,7 +31,7 @@ root /var/www/laravel/public;
 
 `cd ~/Deha-Academy-Docker-Lap1`
 
-`docker-commpose up`
+`docker-compose up -d`
 
 http://localhost:5000
 
