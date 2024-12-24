@@ -45,7 +45,10 @@ index.php:
 Hello, World
 ?>`
 
+`exit`
+
 ## Use Docker image: nginx, php, mysql, use Dockerfile and Docker compose to create an environment to run PHP applications.
+`docker-compose down`
 
 `cd ~/Deha-Academy-Docker-Lap1`
 
