@@ -26,3 +26,22 @@ NGINX_HOST_HTTP_PORT=8989
 Sửa: </b>
 
 root /var/www/laravel/public;
+
+## Use Docker image: nginx, php, mysql, use Dockerfile and Docker compose to create an environment to run PHP applications.
+
+`cd ~/Deha-Academy-Docker-Lap1`
+
+`docker-commpose up`
+
+http://localhost:5000
+
+## Use Laradock to create a Laravel running environment, change the configuration (port, PHP version) of Laradock
+
+`docker-compose down`
+
+`cd laradock`
+
+`docker-compose up -d nginx`
+
+http://localhost:8989
+
