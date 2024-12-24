@@ -1,0 +1,46 @@
+# Loại bỏ các file/directory liên quan đến hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Loại bỏ các file log
+*.log
+
+# Loại bỏ node_modules (nếu dùng Node.js)
+node_modules/
+
+# Loại bỏ các file build và cache
+build/
+dist/
+out/
+*.tmp
+*.cache
+
+# Loại bỏ các file cấu hình môi trường
+.env
+.env.local
+.env.*.local
+
+# Loại bỏ các khóa SSH hoặc thông tin nhạy cảm
+*.pem
+*.key
+*.crt
+*.rsa
+insecure_id_rsa
+insecure_id_rsa.pub
+
+# Loại bỏ các thư mục cấu hình IDE
+.idea/
+.vscode/
+*.iml
+
+# Loại bỏ các file Python (nếu có)
+*.pyc
+__pycache__/
+
+# Loại bỏ các file tạm thời khác
+*.swp
+*.swo
+*.bak
+
+# Loại bỏ các file liên quan đến Docker
+docker-compose.override.yml
