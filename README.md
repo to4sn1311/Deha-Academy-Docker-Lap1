@@ -13,7 +13,7 @@
 
 `cp .env.example .env`</br>
 
-Sửa: </br>
+Edit .env: </br>
 
 APP_CODE_PATH_HOST=../app
 
@@ -26,6 +26,24 @@ NGINX_HOST_HTTP_PORT=8989
 Edit default.conf: </b>
 
 root /var/www/laravel/public;
+
+## Create Lavavel and index.php
+
+`cd laradock`
+
+`docker-compose up -d nginx workspace`
+
+`docker-compose exec workspace bash`
+
+`composer create-project laravel/laravel laravel`
+
+`touch index.php`
+
+index.php:
+
+`<?php 
+Hello, World
+?>`
 
 ## Use Docker image: nginx, php, mysql, use Dockerfile and Docker compose to create an environment to run PHP applications.
 
